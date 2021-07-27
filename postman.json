@@ -1,0 +1,99 @@
+{
+  "info": {
+    "name": "rytd.paw",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "创建订单",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "https://api.rykjsz.com/v1/shipment/orders/",
+          "query": null,
+          "protocol": "https",
+          "host": [
+            "api",
+            "rykjsz",
+            "com"
+          ],
+          "port": null,
+          "path": [
+            "v1",
+            "shipment",
+            "orders"
+          ]
+        },
+        "description": "",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "disabled": false,
+            "description": null
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI3NDU0MzMxLCJqdGkiOiI4YTNiMjgxYTVhMzY0ODVkODJmMDA5OTdkZDY2N2YxMyIsInVzZXJfaWQiOjE5NDExMTI2MDk3NTEwNCwiY29tcGFueV9pZCI6MTk0MTExMjYwOTUwNTI4fQ.g3Bebh8U9Ph-Bj_cofSVj9yc4bx2OHdoAlEGBqkWDIg",
+            "disabled": false,
+            "description": null
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "disabled": false,
+          "raw": "{\"city\":\"lawndale\",\"company\":\"\\u95f0\\u5b87\\u7269\\u6d41\\u6709\\u9650\\u516c\\u53f8\",\"consignee\":\"Cristina Garcia\",\"country\":\"US\",\"number\":\"API20210714-11\",\"package_set\":[{\"height\":30,\"length\":40,\"package_num\":\"001\",\"shipmentcommodity_set\":[{\"brand\":\"\\u4efb\\u5929\\u5802\",\"currency\":\"USD\",\"hs_code\":\"9504509900\",\"name_cn\":\"\\u638c\\u5f0f\\u6e38\\u620f\\u673a\\u6210\\u5957\\u6563\\u4ef6\",\"name_en\":\"Portable Game Console\",\"quantity\":2,\"sku\":\"x01\",\"unit\":\"\\u4ef6\",\"unit_price\":175,\"unit_weight\":0.3}],\"weight\":1.4,\"width\":50}],\"package_type\":1,\"phone\":\"562-331-1328\",\"service\":\"TEST\",\"state\":\"CA\",\"street_1\":\"10 S Northwest Hwy\",\"zip_code\":\"90260\"}"
+        },
+        "auth": null
+      },
+      "protocolProfileBehavior": {
+        "followRedirects": false,
+        "followOriginalHttpMethod": false,
+        "followAuthorizationHeader": false
+      },
+      "response": []
+    },
+    {
+      "name": "获取令牌",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "https://api.rykjsz.com/v1/login/",
+          "query": null,
+          "protocol": "https",
+          "host": [
+            "api",
+            "rykjsz",
+            "com"
+          ],
+          "port": null,
+          "path": [
+            "v1",
+            "login"
+          ]
+        },
+        "description": "",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "disabled": false,
+            "description": null
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "disabled": false,
+          "raw": "{\"password\":\"123\",\"username\":\"ryan\"}"
+        },
+        "auth": null
+      },
+      "protocolProfileBehavior": {
+        "followRedirects": false,
+        "followOriginalHttpMethod": false,
+        "followAuthorizationHeader": false
+      },
+      "response": []
+    }
+  ]
+}
