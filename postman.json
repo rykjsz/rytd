@@ -9,11 +9,11 @@
       "request": {
         "method": "POST",
         "url": {
-          "raw": "https://api.rykjsz.com/v1/shipment/orders/",
+          "raw": "https://api-sh-test.rykjsz.com/v1/shipment/orders/",
           "query": null,
           "protocol": "https",
           "host": [
-            "api",
+            "api-sh-test",
             "rykjsz",
             "com"
           ],
@@ -34,7 +34,7 @@
           },
           {
             "key": "Authorization",
-            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI3NDU0MzMxLCJqdGkiOiI4YTNiMjgxYTVhMzY0ODVkODJmMDA5OTdkZDY2N2YxMyIsInVzZXJfaWQiOjE5NDExMTI2MDk3NTEwNCwiY29tcGFueV9pZCI6MTk0MTExMjYwOTUwNTI4fQ.g3Bebh8U9Ph-Bj_cofSVj9yc4bx2OHdoAlEGBqkWDIg",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI4MTMzMTI2LCJqdGkiOiI5OTdmMDMxMWY1NDc0NjZiYWMyMDI3NmRmZWJkNTI0NSIsInVzZXJfaWQiOjE5NDExMTI2NjM2OTUzNiwiY29tcGFueV9pZCI6MTk0MTExMjY2MzIwMzg0fQ._NRRXUg4x3Zl4TTbhazrIW1MZgjRS9mqG2bx6XxtqfI",
             "disabled": false,
             "description": null
           }
@@ -42,7 +42,7 @@
         "body": {
           "mode": "raw",
           "disabled": false,
-          "raw": "{\"city\":\"lawndale\",\"company\":\"\\u95f0\\u5b87\\u7269\\u6d41\\u6709\\u9650\\u516c\\u53f8\",\"consignee\":\"Cristina Garcia\",\"country\":\"US\",\"number\":\"API20210714-11\",\"package_set\":[{\"height\":30,\"length\":40,\"package_num\":\"001\",\"shipmentcommodity_set\":[{\"brand\":\"\\u4efb\\u5929\\u5802\",\"currency\":\"USD\",\"hs_code\":\"9504509900\",\"name_cn\":\"\\u638c\\u5f0f\\u6e38\\u620f\\u673a\\u6210\\u5957\\u6563\\u4ef6\",\"name_en\":\"Portable Game Console\",\"quantity\":2,\"sku\":\"x01\",\"unit\":\"\\u4ef6\",\"unit_price\":175,\"unit_weight\":0.3}],\"weight\":1.4,\"width\":50}],\"package_type\":1,\"phone\":\"562-331-1328\",\"service\":\"TEST\",\"state\":\"CA\",\"street_1\":\"10 S Northwest Hwy\",\"zip_code\":\"90260\"}"
+          "raw": "{\"number\":\"API202108-{{$randomInt}}\",\"company\":\"\\u7cfb\\u7edf\\u6d4b\\u8bd5\\u516c\\u53f8\",\"service\":\"test\",\"incoterm\":\"\",\"package_type\":2,\"consignee\":\"Cristina Garcia\",\"origin_country\":\"CN\",\"country\":\"US\",\"state\":\"CA\",\"city\":\"lawndale\",\"county\":\"\",\"street_1\":\"10 S Northwest Hwy\",\"street_2\":\"\",\"street_3\":\"\",\"zip_code\":\"90260\",\"phone\":\"562-331-1328\",\"mobile\":\"\",\"email\":\"\",\"tax_id\":\"\",\"cnee_company\":\"\",\"is_residential\":null,\"export_declaration\":null,\"danger_info\":null,\"prepayment_of_vat\":null,\"shipper_tax_id\":\"\",\"package_set\":[{\"package_num\":\"001\",\"weight\":1.2,\"length\":10,\"width\":5,\"height\":5,\"shipmentcommodity_set\":[{\"sku\":\"EE121\",\"name_cn\":\"\\u94b1\\u5305\",\"name_en\":\"Wallet\",\"hs_code\":\"9000000000\",\"quantity\":1,\"unit\":\"\\u4ef6\",\"unit_weight\":0.4,\"unit_price\":17.53,\"currency\":\"USD\",\"brand\":\"Gucci\",\"specification\":\"\\u94b1\\u5305\"},{\"sku\":\"EE122\",\"name_cn\":\"\\u80cc\\u5305\",\"name_en\":\"backpack\",\"hs_code\":\"8000000000\",\"quantity\":2,\"unit\":\"\\u4ef6\",\"unit_weight\":0.3,\"unit_price\":20.5,\"currency\":\"USD\",\"brand\":\"Gucci\",\"specification\":\"\\u76ae\\u5305\"}]}]}"
         },
         "auth": null
       },
@@ -58,11 +58,11 @@
       "request": {
         "method": "POST",
         "url": {
-          "raw": "https://api.rykjsz.com/v1/login/",
+          "raw": "https://api-sh-test.rykjsz.com/v1/login/",
           "query": null,
           "protocol": "https",
           "host": [
-            "api",
+            "api-sh-test",
             "rykjsz",
             "com"
           ],
