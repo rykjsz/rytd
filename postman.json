@@ -94,6 +94,47 @@
         "followAuthorizationHeader": false
       },
       "response": []
+    },
+    {
+      "name": "获取面单",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://api-sh-test.rykjsz.com/v1/shipment/orders/API202108-916/label/",
+          "query": null,
+          "protocol": "https",
+          "host": [
+            "api-sh-test",
+            "rykjsz",
+            "com"
+          ],
+          "port": null,
+          "path": [
+            "v1",
+            "shipment",
+            "orders",
+            "API202108-916",
+            "label"
+          ]
+        },
+        "description": "",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI4NjU0MTA3LCJqdGkiOiJlN2E4YzRkZjc5ZTk0MzRlYWU1M2U3MDhhMWQ1ZjczYyIsInVzZXJfaWQiOjQwNzAyNTUwNzgyNDAwLCJjb21wYW55X2lkIjo0MDcwMjU1MDc1MzcyOH0.mD3EG-qyWc_gHuZtL_PhKYXmj05CZ3qef31j0PPGskc",
+            "disabled": false,
+            "description": null
+          }
+        ],
+        "body": null,
+        "auth": null
+      },
+      "protocolProfileBehavior": {
+        "followRedirects": false,
+        "followOriginalHttpMethod": false,
+        "followAuthorizationHeader": false
+      },
+      "response": []
     }
   ]
 }
